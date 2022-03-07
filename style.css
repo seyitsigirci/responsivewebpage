@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+}
+nav {
+  background-color: red;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+#navlink {
+  padding: 0;
+  list-style: none;
+}
+#navlinks {
+  display: inline-block;
+}
+#navlinks2 {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+  border: solid;
+  border-radius: 12px;
+  margin: 10px;
+}
+#navinalti {
+  background-image: url("./photo4.jpg");
+  height: 400px;
+  background-position: center;
+  padding: 10px;
+}
+
+#basliks {
+  color: white;
+  border: solid;
+  border-radius: 12px;
+  display: inline-block;
+  font-size: 30px;
+  margin: 20px;
+}
+
+#altkisim {
+  text-align: center;
+  margin: 3%;
+}
+#satir {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#sutun {
+  display: inline-block;
+  width: 45%;
+  padding: 8px;
+  margin-bottom: 8px;
+  vertical-align: top;
+  background-color: red;
+  border: solid;
+  border-radius: 12px;
+}
+#yazis {
+  color: white;
+}
+
+#ustyazi {
+  background-color: red;
+  border: solid;
+  border-radius: 12px;
+}
+
+.gridim {
+  text-align: center;
+  display: grid;
+  grid-template: auto auto auto / auto auto auto;
+}
