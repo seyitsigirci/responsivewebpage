@@ -1,0 +1,25 @@
+img {
+  max-width: 50%;
+  height: auto;
+}
+
+@media screen and (max-width: 932px) {
+  #sutun {
+    width: 90%;
+  }
+  h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #sutun {
+    width: 100%;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  #navlinks2 {
+    font-size: 20px;
+  }
+}
